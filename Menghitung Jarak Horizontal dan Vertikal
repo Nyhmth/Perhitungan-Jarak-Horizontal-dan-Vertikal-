@@ -1,0 +1,37 @@
+#uji coba nilai sin dan cos 
+print("......")
+
+a = 90 
+b = 0
+rv = (a/180)*pi
+rc = (b/180)*pi
+
+print(sin(rv))
+print(cos(rc))
+from math import sin
+from math import pi
+from math import cos
+
+print("Nama : Inayah Muthmainah")
+print("NIM = 1207030018 ")
+print("Jurusan : Fisika ")
+
+#menghitung jarak horizontal (x)
+print("contoh soal = sebuah bola dilempar dengan kecepatan awal 20 m/s pada sudut 30 di atas tanah. Cari : ")
+print("1. Jarak maksimum bola tersebut!")
+print("2. Ketinggian maksimum bola tersebut! ")
+v = 20
+s =  30
+sdt = (s/180)*pi
+n = sin(sdt)
+g = 9.8
+# x = v^2sin2a /g
+
+jarak = (v**2)* sin(2*n)/g
+print("jawab : ")
+print("jarak = ", jarak,"m")
+
+#menghitung jarak vertikal (y)
+o = n**2
+puncak = (v**2)*o/(2*g)
+print("ketinggian = ", puncak , "m")
